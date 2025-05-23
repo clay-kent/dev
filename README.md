@@ -1,15 +1,67 @@
-# What is this?
+2025 年 5 月 23 日(金)
+プログラミング2 条件分岐に関する練習問題
+問題1(file 名:pr05-1.c とすること)
+所持金(1000 円以上,100000 円以下)を入力すると,その金額を紙幣と硬貨が最も少なくなる組合せの
+枚数を表示するプログラムを作りなさい.
+例えば,5392 円では 5 千円さつ 1 枚,100 円硬貨 3 枚,50 円硬貨 1 枚,10 円硬貨 4 枚,1 円硬貨 2
+枚となる.出力は各紙幣,硬貨を順に表示させること.
+出力例
+10000 円:0 枚
+5000 円:1 枚
+1000 円:0 枚
+500 円:0 枚
+100 円:3 枚
+50 円:1 枚
+10 円:4 枚
+5 円:0 枚
+1 円:2 枚
+問題 2(file 名:pr05-2.c とすること)
+5 で割ると 1 余り、3 で割ると 2 余るような自然数の集合を A とおく.整数 s を入力して,s が A に含
+まれるかどうか判定するプログラムを作りなさい.
+入力 出力
+26 YES
+35 NO
 
-The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.
+問題3(file 名:pr05-3.c とすること)
+入力した年(西暦)が閏年(YES)か普通年(NO)かを判定するプログラムを作りなさい.ただし,100 で
+割り切れる時は閏年ではなく,400 で割り切れたら閏年.
+入力 出力
+2012 YES
+1999 NO
+2000 YES
+1900 NO
 
-There are two ways to go directly to a VS Code environment in your browser and start coding:
+問題 4(file 名:pr05-4.c とすること)
+2 桁の整数を入力し,ぞろ目かどうかを判別するプログラムを作りなさい.
 
-* Press the . key on any repository or pull request.
-* Swap `.com` with `.dev` in the URL. For example, this repo https://github.com/github/dev becomes http://github.dev/github/dev
+入力 出力
+11 OK
+10 NG
+77 OK
+70 NG
 
-Preview the gif below to get a quick demo of github.dev in action.
+問題 5(file 名:pr05-5.c とすること)
+1. 98 円の柿 n 個と 108 円のリンゴ m 個,498 円のぶどう l 個を購入し,k 円支払った.おつりの金額
+とおつりとしてもらえる紙幣および硬貨の枚数を紙幣と硬貨毎に表示するプログラムを作りなさ
+い.入力は柿,リンゴ,ぶどうの個数,払った金額を順に入力すること.おつりは 1 万円札,5 千
+円札,千円札,500 円硬貨,100 円硬貨,50 円硬貨,10 円硬貨,5 円硬貨,1 円硬貨の順に半角ス
+ペースを区切り文字として表示させること.
 
-![github dev](https://user-images.githubusercontent.com/856858/130119109-4769f2d7-9027-4bc4-a38c-10f297499e8f.gif)
-
-# Why?
-It’s a quick way to edit and navigate code. It's especially useful if you want to edit multiple files at a time or take advantage of all the powerful code editing features of Visual Studio Code when making a quick change. For more information, see our [documentation](https://github.co/codespaces-editor-help).
+問題 6(file 名:pr05-6.c とすること)
+数列 (1,4,7,10,13,...)において,第 n 項目の数字を表示するプログラムを作りなさい.ただし,n は正
+の整数であり,10000 未満の数字とする.
+問題 7(file 名:pr05-7.c とすること)
+数列(0.125,0.25,0.5,1,2,4,8,16,...)において,第 n 項目の数字を表示するプログラムを作りなさい.た
+だし,n は正の整数であり,10000 未満の数字とし,第 n 項目の数字は小数点以下第 3 位迄表示させ
+ること.
+問題 8(file 名:pr05-8.c とすること)
+ある関数を積分することで面積が求まることは,台形公式を使って説明することができる.そこで,
+y=x3-2x2-x+2(-1≦x≦1)において⊿x と x の値を入力することで,その区間(x~x+⊿x)の面積を求める
+プログラムを作りなさい.ここで,区間の両端(x , x+⊿x)は必ず-1~1 の範囲に入っていることとす
+る.
+問題 9(file 名:pr05-9.c とすること)
+ベクトル A(x,y)と B(i,j)を入力とし,2 つのベクトルが直行している時は OK と,直行していない時は
+NG と表示するプログラムを作りなさい.
+問題 10(file 名:pr05-10.c とすること)
+ある物体を高さ h(m)から自由落下させた.地上に物体が到達した時,物体の速度 v(m/s)を表示させる
+プログラムを作りなさい.ただし,重力加速度を 9.8m/s2とする.
